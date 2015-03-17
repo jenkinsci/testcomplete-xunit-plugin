@@ -54,20 +54,11 @@ THE SOFTWARE.
 			</roles>
 		</developer>
 	</developers>
-	<!-- Initial dev location -->
-	<scm>
-		<connection>scm:git:git://github.com/fmiguelez/testcomplete-xunit-plugin.git</connection>
-		<developerConnection>scm:git:git@github.com:fmiguelez/testcomplete-xunit-plugin.git</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
-	<!-- Final location -->
-	<!-- 
 	<scm>
 		<connection>scm:git:git://github.com/jenkinsci/testcomplete-xunit-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:jenkinsci/testcomplete-xunit-plugin.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
-	 -->
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>1.6</maven.compiler.source>
