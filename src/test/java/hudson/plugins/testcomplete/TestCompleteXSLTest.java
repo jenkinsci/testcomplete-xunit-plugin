@@ -30,36 +30,71 @@ import org.junit.Test;
 public class TestCompleteXSLTest extends AbstractXUnitXSLTest {
 
 	@Test
-	public void testKeywordTestProject() throws Exception {
+	public void testKeywordTestProjectTC9() throws Exception {
 		convertAndValidate(TestCompleteInputMetric.class,
-				"TC-testKeywordTestProject.mht",
-				"JUnit-testKeywordTestProject.xml");
+				"TC9-testKeywordTestProject.mht",
+				"JUnit-TC9-testKeywordTestProject.xml");
 	}
 
 	@Test
-	public void testScriptTestProject() throws Exception {
+	public void testScriptTestProjectTC9() throws Exception {
 		convertAndValidate(TestCompleteInputMetric.class,
-				"TC-testScriptTestProject.mht",
-				"JUnit-testScriptTestProject.xml");
+				"TC9-testScriptTestProject.mht",
+				"JUnit-TC9-testScriptTestProject.xml");
 	}
 
 	@Test
-	public void testProjectSuite() throws Exception {
+	public void testProjectSuiteTC9() throws Exception {
 		convertAndValidate(TestCompleteInputMetric.class,
-				"TC-testProjectSuite.mht", "JUnit-testProjectSuite.xml");
+				"TC9-testProjectSuite.mht", "JUnit-TC9-testProjectSuite.xml");
 	}
 
 	@Test
-	public void testSingleKeywordTest() throws Exception {
+	public void testSingleKeywordTestTC9() throws Exception {
 		convertAndValidate(TestCompleteInputMetric.class,
-				"TC-testSingleKeywordTest.mht",
-				"JUnit-testSingleKeywordTest.xml");
+				"TC9-testSingleKeywordTest.mht",
+				"JUnit-TC9-testSingleKeywordTest.xml");
 	}
 
 	@Test
-	public void testSingleScriptTest() throws Exception {
+	public void testSingleScriptTestTC9() throws Exception {
 		convertAndValidate(TestCompleteInputMetric.class,
-				"TC-testSingleScriptTest.mht", "JUnit-testSingleScriptTest.xml");
+				"TC9-testSingleScriptTest.mht",
+				"JUnit-TC9-testSingleScriptTest.xml");
+	}
+
+	@Test
+	public void testKeywordTestProjectTC10() throws Exception {
+		convertAndValidate(TestCompleteInputMetric.class,
+				"TC10-testKeywordTestProject.mht",
+				"JUnit-TC10-testKeywordTestProject.xml");
+	}
+
+	@Test
+	public void testScriptTestProjectTC10() throws Exception {
+		convertAndValidate(TestCompleteInputMetric.class,
+				"TC10-testScriptTestProject.mht",
+				"JUnit-TC10-testScriptTestProject.xml");
+	}
+
+	@Test
+	public void testProjectSuiteTC10() throws Exception {
+		convertAndValidate(TestCompleteInputMetric.class,
+				"TC10-testProjectSuite.mht", "JUnit-TC10-testProjectSuite.xml");
+	}
+
+	@Test
+	public void testSingleKeywordTestTC10() throws Exception {
+		convertAndValidate(TestCompleteInputMetric.class,
+				"TC10-testSingleKeywordTest.mht",
+				"JUnit-TC10-testSingleKeywordTest.xml");
+	}
+
+	@Test
+	public void testSingleScriptTestTC10() throws Exception {
+		convertAndValidate(TestCompleteInputMetric.class,
+				"TC10-testSingleScriptTest.mht",
+				"JUnit-TC10-testSingleScriptTest.xml");
 	}
 
 	@Test

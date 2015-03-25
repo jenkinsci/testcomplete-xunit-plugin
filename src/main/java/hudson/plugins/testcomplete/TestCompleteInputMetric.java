@@ -102,12 +102,12 @@ public class TestCompleteInputMetric extends InputMetricXSL {
 
 	@Override
 	public String getToolVersion() {
-		return "10.x";
+		return "9.x-10.x";
 	}
 
 	@Override
 	public String getXslName() {
-		return "testcomplete-10-to-junit-1.0.xsl";
+		return "testcomplete-9-10-to-junit-1.0.xsl";
 	}
 
 	protected void setTestFilterPattern(String testFilterPattern) {
